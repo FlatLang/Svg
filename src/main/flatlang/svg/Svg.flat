@@ -6,7 +6,7 @@ class Svg {
     public SvgMainComponent root
 
     public construct() {
-        root = new SvgMainComponent()
+        root = SvgMainComponent()
     }
 
     public generateOutput(FileWriter writer) => root.generateOutput(writer)

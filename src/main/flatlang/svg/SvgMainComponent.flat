@@ -4,7 +4,7 @@ import "flatlang/io/FileWriter"
 
 class SvgMainComponent extends SvgComponent {
     public construct() {
-        children = new SvgComponentList()
+        children = SvgComponentList()
     }
 
     public generateOutput(FileWriter writer) {

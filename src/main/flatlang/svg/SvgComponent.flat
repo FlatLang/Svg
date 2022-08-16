@@ -6,7 +6,7 @@ class SvgComponent {
     public SvgComponentList children
 
     public construct() {
-        children = new SvgComponentList()
+        children = SvgComponentList()
     }
 
     public generateOutput(FileWriter writer) => Console.writeLine("This is wrong")
