@@ -1,6 +1,6 @@
-package "flatlang/svg"
+package flatlang/svg
 
-import "flatlang/io/FileWriter"
+import flatlang/io/FileWriter
 
 class SvgComponentList {
     public var SvgComponentNode start

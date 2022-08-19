@@ -1,6 +1,6 @@
-package "flatlang/svg"
+package flatlang/svg
 
-import "flatlang/io/FileWriter"
+import flatlang/io/FileWriter
 
 class SvgCircle extends SvgComponent {
     public construct(visible Double x, visible Double y, visible Int r) {}

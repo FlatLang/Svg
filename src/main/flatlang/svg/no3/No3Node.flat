@@ -1,4 +1,4 @@
-package "flatlang/svg/no3"
+package flatlang/svg/no3
 
 public abstract class No3Node {
     public abstract toJs() -> String
