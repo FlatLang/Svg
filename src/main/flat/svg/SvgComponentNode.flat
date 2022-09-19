@@ -1,4 +1,4 @@
-package flatlang/svg
+package flat/svg
 
 class SvgComponentNode {
     public construct(public SvgComponent component, public var SvgComponentNode next = null) {}
