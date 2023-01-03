@@ -9,5 +9,7 @@ class SvgComponent {
         children = SvgComponentList()
     }
 
-    public generateOutput(FileWriter writer) => Console.writeLine("This is wrong")
+    public generateOutput(FileWriter writer) {
+      Console.writeLine("This is wrong")
+    }
 }
