@@ -7,6 +7,6 @@ package flat/svg/no3
 /// Used in special purpose fuels. Under prolonged exposure to intense heat the
 /// container may rupture violently and rocket.
 class No3 {
-    public static select(String selection) => No3Select(selection)
-    public static selectAll(String selection) => No3SelectAll(selection)
+        public static select(String selection) => No3Select(selection)
+        public static selectAll(String selection) => No3SelectAll(selection)
 }
