@@ -6,7 +6,7 @@
   "license": "ISC",
   "defaultTarget": "es6",
   "scripts": {
-    "test": "node dist/es6/test.js"
+    "test": "node dist/es6/test.mjs"
   },
   "sources": {
     "main": {
@@ -18,6 +18,7 @@
     },
     "test": {
       "source": "src/**/*_Test*.flat",
+      "outFile": "test.mjs",
       "dependencies": {
         "https://github.com/FlatLang/Test.git": "master"
       }
