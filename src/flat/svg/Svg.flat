@@ -3,19 +3,19 @@ package flat/svg
 import flat/io/FileWriter
 
 class Svg {
-        public SvgMainComponent root
+    public SvgMainComponent root
 
-        public construct() {
-                root = SvgMainComponent()
-        }
+    public construct() {
+        root = SvgMainComponent()
+    }
 
-        public generateOutput(FileWriter writer) => root.generateOutput(writer)
+    public generateOutput(FileWriter writer) => root.generateOutput(writer)
 
-        public generateHTMLOutput(FileWriter writer) {
-                writer.write("<html>\n")
+    public generateHTMLOutput(FileWriter writer) {
+        writer.write("<html>\n")
 
-                generateOutput(writer)
+        generateOutput(writer)
 
-                writer.write("</html>")
-        }
+        writer.write("</html>")
+    }
 }

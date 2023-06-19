@@ -3,13 +3,13 @@ package flat/svg
 import flat/io/FileWriter
 
 class SvgComponent {
-        public SvgComponentList children
+    public SvgComponentList children
 
-        public construct() {
-                children = SvgComponentList()
-        }
+    public construct() {
+        children = SvgComponentList()
+    }
 
-        public generateOutput(FileWriter writer) {
-            Console.writeLine("This is wrong")
-        }
+    public generateOutput(FileWriter writer) {
+        Console.writeLine("This is wrong")
+    }
 }
